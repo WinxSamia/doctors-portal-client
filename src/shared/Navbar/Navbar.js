@@ -7,16 +7,16 @@ const Navbar = () => {
             <Link to="/">Home</Link>
         </li>
         <li>
-            <Link to="/">About</Link>
+            <Link to="/about">About</Link>
         </li>
         <li>
-            <Link to="/">Appointment</Link>
+            <Link to="/appointment">Appointment</Link>
         </li>
         <li>
-            <Link to="/">Reviews</Link>
+            <Link to="/review">Reviews</Link>
         </li>
         <li>
-            <Link to="/">Contact us</Link>
+            <Link to="/contact">Contact us</Link>
         </li>
         <li>
             <Link to="/login">Login</Link>
