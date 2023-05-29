@@ -20,7 +20,7 @@ const AppointmentTime = ({ selectDate }) => {
                     schedules.map(schedule => <Treatment setTreatment={setTreatment} schedule={schedule} key={schedule._id}></Treatment>)
                 }
             </div>
-            <BookingModal treatments={treatments}></BookingModal>
+            <BookingModal selectDate={selectDate} treatments={treatments}></BookingModal>
         </div>
     );
 };
