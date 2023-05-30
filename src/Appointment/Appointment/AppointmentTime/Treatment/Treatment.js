@@ -10,7 +10,7 @@ const Treatment = ({ schedule, setTreatment }) => {
                 <p className='text-center'> {slots.length} {slots.length > 1 ? 'spaces' : 'space'} available</p>
                 <div className="card-actions justify-center">
                     <label disabled={slots.length === 0} htmlFor="booking-modal" className="btn"
-                        onClick={() => setTreatment(schedule)}>Book Appointment</label>
+                        onClick={() => { setTreatment(schedule) }}>Book Appointment</label>
 
                 </div>
             </div>
